@@ -1,1 +1,1 @@
-# FullStackPractical
+# fullstack_practicals

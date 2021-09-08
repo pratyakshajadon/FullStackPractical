@@ -1,0 +1,234 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Glory, sans-serif;
+}
+
+html {
+    scroll-padding-top: 12.5% ;
+    scroll-behavior: smooth;
+}
+
+body {
+  margin: 0 2%;
+}
+.nav {
+  padding: 1% 0;
+  background-color: gray;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  position: fixed;
+  width : 96%;
+  z-index: 5;
+}
+a {
+  color: black;
+  padding: 1% 5% 1% 5%;
+  font-size: xx-large;
+  font-weight: 1000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: cyan;
+  background-color: black;
+  transition: ease-in-out 1s, color 5s;
+}
+
+.banner {
+    background-image: url('./assets/glider-java-developer.png');
+    height: 100vh;
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.practical8{
+    margin: 0 1%;
+    font-weight: 900;
+    font-size: 550%;
+    color: white;
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about .heading {
+    text-align: center;
+}
+
+.box1 {
+    max-width: 47vw;
+    height: 60vh;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 47vw;
+    height: 60vh;
+}
+.imgbox {
+    height: 18vh;
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15% 0;
+}
+
+.imgicons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.heading{
+    margin: 3% 0;
+    font-weight: 900;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.box1>.heading {
+    font-size: 2rem;
+    text-align: left;
+}
+.box1 {
+    background:silver;
+    overflow: hidden;
+}
+.box1>p {
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+.imgicons>img {
+    border-radius: 50%;
+    width: 20%;
+}
+
+.main1{
+    display: flex;
+    margin: 0 3%;
+    justify-content: space-around;
+    height: auto;
+}
+
+.main1 .part {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border: 20px solid white;
+    border-radius: 15px;
+    margin :20px;
+    overflow: hidden;
+}
+
+.main .part .image {
+    border-radius: 15px ;
+    width: 100%;
+    height: 150px;
+}
+.part h3 {
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 900;
+    padding: 3% 0;
+}
+
+.part p {
+    width: 300px;
+    height: 100;
+    word-spacing: 20px;
+    text-align: justify;
+    font-weight: 600;
+}
+
+.part a {
+    margin-top: 2vh;
+    padding: .5% 23.5%;
+    border-radius: 10px;
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 900;
+}
+
+.part a:hover {
+    background-color:blue;
+    color: black;
+    transition: none;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: pink;
+    justify-content: space-evenly;
+    height:10vh;
+    font-size: 1.7rem;
+}
+
+.footer a{
+    padding: 0;
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+    color: red;
+    background-color: pink;
+    transition: none;
+    font-size: 1.2rem;
+}
+
+.imgbox1{
+    background-image: url('./assets/project1.jpeg');
+}
+
+.imgbox2{
+    background-image: url('./assets/project2.jpeg');
+}
+
+.imgbox3{
+    background-image: url('./assets/project3.jpeg');
+}
+
+.imgbox {
+    height: 32.5%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imgbox .heading {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 0.5%;
+}
+
+#Technology {
+    height: 100vh;
+}
+
+#Technology .heading {
+    padding: 1% 0;
+}
